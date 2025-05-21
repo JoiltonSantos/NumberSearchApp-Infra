@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: number-search-app
-        image: joiltonsantos/number-search-app:latest
+        image: joiltonsantos/number-search-app:d89ad33d6d596885296ead30e779c94acf1d71cb
         imagePullPolicy: IfNotPresent
         resources:
           requests:
